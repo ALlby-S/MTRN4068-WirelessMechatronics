@@ -17,3 +17,9 @@ a = 1
 if a == 2:
     print("a equals 2. \n")
 
+
+#3. FLoat numbers
+fnum = 5.0
+print(fnum)
+fnum2 = float(20) #Type casting.
+print(fnum2)
