@@ -7,23 +7,17 @@ def hello():
     print("\n Hello World")
 
 #For testing
-def stars(n):
-    if n <= 0:
-        return 0
-    else:
-        line = "*"
-        x = 0
-        while x < n:
+def numPyr(n):
+        x,y = n,n
+        while x > 0:
+            line = ""
+            while y > 0:
+               line = line + " " + str(y)
+               y-=1
             print(line)
-            line = line + "*"
-            x += 1
-        print()
-
-
-
-stars(5)
-
-
+            x = x - 1
+            y=x
+ 
 
 # for _ in range(5):
 #     hello()
