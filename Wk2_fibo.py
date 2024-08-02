@@ -48,15 +48,13 @@ def stars(n):
 #4 3 2 1
 #3 2 1 ...
 def numPyr(n):
-    if n<= 0:
-        return 0
-    else:
-        x,y = n,n
-        while x > 0:
-            x =- 1
-            y = x
-            line = ""
-            while y > 0:
-               line = line + " " + str(y)
-               y-=1
-            print(line)
+    x,y = n,n
+    while x > 0:
+        line = ""
+        while y > 0:
+            line = line + " " + str(y)
+            y-=1
+        print(line)
+        x = x - 1
+        y=x
+
