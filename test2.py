@@ -12,7 +12,7 @@ def printFor(y):
         print(a)
     print("\n DONE")
 
-def albertoLuckyNumber(x):
+def LuckyNumber(x):
     for b in range(x):
         print(b)
     print("\n Finished")
