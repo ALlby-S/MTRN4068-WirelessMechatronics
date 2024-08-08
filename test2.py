@@ -11,3 +11,8 @@ def printFor(y):
     for a in range(y):
         print(a)
     print("\n DONE")
+
+def LuckyNumber(x):
+    for b in range(x):
+        print(b)
+    print("\n Finished")
