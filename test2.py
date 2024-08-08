@@ -7,4 +7,7 @@ def littleFunc(n):
         print("little")
     print("funk")
 
-
+def printFor(y):
+    for a in range(y):
+        print(a)
+    print("\n DONE")
