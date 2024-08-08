@@ -15,4 +15,4 @@ def printFor(y):
 def albertoLuckyNumber(x):
     for b in range(x):
         print(b)
-    print("\n Done")
+    print("\n Finished")
