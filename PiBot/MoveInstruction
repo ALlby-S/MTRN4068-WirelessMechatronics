@@ -1,0 +1,33 @@
+class MoveInstruction:
+    #Initialising the MoveInstruction class
+    def __init__(self, direction, distance):
+        self.direction = direction
+        self.distance = distance
+    
+
+    def setDirection(dir):
+        direction = dir
+
+    def setDistance(dist):
+        distance = dir
+    
+    def getDirection(self):
+        print("Direction is set as: ",self.direction)
+        return self.direction
+    
+    def getDistance(self):
+        print("Direction is set as: ",self.distance)
+        return self.distance
+
+    def clearDir(self):
+        direction = None
+
+    def clearDist(self):
+        distance = None
+
+    
+
+
+
+
+    
